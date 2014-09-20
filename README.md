@@ -1,12 +1,11 @@
 Getting-and-Cleaning-Data-Project
 =================================
 
-Coursera Getting and Cleaning Data class project
+Jean Simms: Coursera Getting and Cleaning Data class project
  ---
 title: "README"
 author: "Jean Simms"
 date: "September 18, 2014"
-output: html_document
 ---
 *****************************************
 ************* Instructions **************
