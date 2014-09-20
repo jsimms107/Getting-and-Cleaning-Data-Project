@@ -32,15 +32,15 @@ Example: "tBodyAcc mean X" is the mean acceleration in the x direction that is a
 *********** Transformations *************
 *****************************************
 The R script contained in the README.md file was used to 
-1) Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-2) Unzip the file and load the data into R objects 
-3) Merge the training and the test sets to create a single dataset.
-4) Extract only the measurements on the mean and standard deviation for each measurement. All "angle" measurements were excluded because they they aren't actual mean and standard deviation measurements, even though the word "mean" is sometimes present in the variable name. Rather, the "angle" variables are measurements of the angle between two variables. For example: angle(tBodyAccMean,gravity) is the angle between the mean body acceleration and gravity
-5) Uses descriptive activity names from activity_labels.txt to name the activities and add them to the dataset
-6) Test subject identification data was added to the dataset
-7) Variable column names were taken from features.txt and modified for easier understanding.
-8) Full tidy dataset is named HARdata
-9) A second tidy data set was created with the average of each column for each activity and each subject. This dataset was named HARavg and saved as HARavg.txt in your working directory
+- Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+- Unzip the file and load the data into R objects 
+- Merge the training and the test sets to create a single dataset.
+- Extract only the measurements on the mean and standard deviation for each measurement. All "angle" measurements were excluded because they they aren't actual mean and standard deviation measurements, even though the word "mean" is sometimes present in the variable name. Rather, the "angle" variables are measurements of the angle between two variables. For example: angle(tBodyAccMean,gravity) is the angle between the mean body acceleration and gravity
+- Uses descriptive activity names from activity_labels.txt to name the activities and add them to the dataset
+- Test subject identification data was added to the dataset
+- Variable column names were taken from features.txt and modified for easier understanding.
+- Full tidy dataset is named HARdata
+- A second tidy data set was created with the average of each column for each activity and each subject. This dataset was named HARavg and saved as HARavg.txt in your working directory
 
 *****************************************
 *********** About the Data **************
